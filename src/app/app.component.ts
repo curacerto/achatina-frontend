@@ -1,14 +1,13 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import {PriceTableComponent} from "../price-table/price-table.component";
-import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {Component} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
+import {MenuBarComponent} from "../menu-bar/menu-bar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
-    PriceTableComponent
+    MenuBarComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

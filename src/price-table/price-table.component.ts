@@ -2,13 +2,15 @@ import {Component, OnInit} from '@angular/core';
 import {TableModule} from "primeng/table";
 import {HttpClient} from '@angular/common/http';
 import {NgForOf} from "@angular/common";
+import {MenuBarComponent} from "../menu-bar/menu-bar.component";
 
 @Component({
   selector: 'app-price-table',
   standalone: true,
   imports: [
     TableModule,
-    NgForOf
+    NgForOf,
+    MenuBarComponent
   ],
   templateUrl: './price-table.component.html',
   styleUrl: './price-table.component.css'
