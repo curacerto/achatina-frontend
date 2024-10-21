@@ -1,6 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component} from '@angular/core';
 import {MenubarModule} from "primeng/menubar";
-import {RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-menu-bar',
