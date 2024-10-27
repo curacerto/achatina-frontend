@@ -1,0 +1,10 @@
+<hr/>
+<div style="display: flex; flex-wrap: wrap; gap: 16px;">
+  <div *ngFor="let resource of resources">
+    <p-card [style]="{ width: '256px', textAlign: 'center' }">
+      <h3>{{ resource.name }}</h3>
+      <p>Quantity: {{ resource.quantity }}</p>
+      <p>Price: {{ resource.price }}</p>
+    </p-card>
+  </div>
+</div>

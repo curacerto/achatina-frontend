@@ -13,6 +13,7 @@ import {MenubarModule} from "primeng/menubar";
 export class MenuBarComponent {
   items = [
     {label: 'Dinosaurs', icon: 'pi pi-fw pi-box', routerLink: '/main'},
+    {label: 'Resources', icon: 'pi pi-fw pi-hammer', routerLink: '/resource'},
     {label: 'Pricing Rules', icon: 'pi pi-fw pi-dollar', routerLink: '/price-table'},
     {label: 'Pricing Categories', icon: 'pi pi-fw pi-book', routerLink: '/price-category'}
   ];
